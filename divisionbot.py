@@ -14,6 +14,7 @@ import time
 # In[3]:
 
 from time import sleep
+import os
 
 
 # In[4]:
@@ -26,10 +27,10 @@ import tweepy
 
 # In[6]:
 
-consumer_key = ''
-consumer_secret = ''
-access_token = ''
-access_token_secret = ''
+consumer_key = os.environ['CONKEY']
+consumer_secret = os.environ['CONSEC']
+access_token = os.environ['ACCKEY']
+access_token_secret = os.environ['ACCSEC']
 
 
 # In[7]:
