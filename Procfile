@@ -1,1 +1,1 @@
-web: python divisionbot.py ${PORT}
+bot: python divisionbot.py ${PORT}
