@@ -18,8 +18,6 @@ from time import sleep
 
 # In[4]:
 
-get_ipython().system(u'pip install tweepy')
-
 
 # In[5]:
 
@@ -28,10 +26,10 @@ import tweepy
 
 # In[6]:
 
-consumer_key = 'P1ruR922GVcRPxmQo9j1yRQdA'
-consumer_secret = 'Lktnuy1oGQ0SO0RIRMNt5RIukSMi6VVaE6e3Pn8XogfOPZLXu2'
-access_token = '854276747096973313-9TWpJFZ63MJBDNyCjck7utSgDwsFlPI'
-access_token_secret = 'MP1prKbW8BjT4Oa37oVbPenTww3jQkKXYHXBh7tuKhQH7'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 
 # In[7]:
@@ -42,8 +40,6 @@ api = tweepy.API(auth)
 
 
 # In[8]:
-
-get_ipython().system(u'pip install beautifulsoup4')
 
 
 # In[9]:
