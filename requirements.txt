@@ -1,2 +1,3 @@
 tweepy
 BeautifulSoup4
+python3-lxml
