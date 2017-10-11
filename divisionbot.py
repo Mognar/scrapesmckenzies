@@ -100,7 +100,16 @@ while True:
         #from datetime import datetime
         #timenow= str(datetime.now())
         try:
-            api.update_status("Division, started:" + textimes)
+            api.update_status("Division!, started:" + textimes + "#clearthelobbies")
+        except tweepy.TweepError as e:
+            pass 
+        print(textin + textimes)
+        sleep(60)
+    elif textin == "":
+        #from datetime import datetime
+        #timenow= str(datetime.now())
+        try:
+            api.update_status("Division? Check annunciator, message unclear, started:" + textimes)
         except tweepy.TweepError as e:
             pass 
         print(textin + textimes)
