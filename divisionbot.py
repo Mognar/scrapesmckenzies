@@ -105,7 +105,10 @@ while True:
             pass 
         print(textin + textimes)
         sleep(60)
-    elif textin == "":
+     elif "
+                        
+                        
+                    " in textin:
         #from datetime import datetime
         #timenow= str(datetime.now())
         try:
