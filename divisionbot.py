@@ -55,7 +55,7 @@ import http.cookiejar
 
 # In[11]:
 
-URL = 'http://parliamentlive.tv/Guide'
+URL = 'https://parliamentlive.tv/Guide'
 #URL = 'http://www.senedd.tv/Meeting/Live'
 #URL = 'http://hansard.parliament.uk/search/MemberContributions?memberId=1522&type=Spoken'
 #jar = http.cookiejar.CookieJar()
@@ -71,7 +71,7 @@ r = requests.get(URL)
 soup = BeautifulSoup(r.content, "lxml")
 eventurl = soup.find("div", {"class":"description"})
 urlnew = eventurl.find("a", href=True)
-fullurl ='http://parliamentlive.tv' + urlnew['href']
+fullurl ='https://parliamentlive.tv' + urlnew['href']
 print(fullurl)
 
 
