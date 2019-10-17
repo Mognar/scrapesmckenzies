@@ -71,7 +71,8 @@ r = requests.get(URL)
 soup = BeautifulSoup(r.content, "lxml")
 eventurl = soup.find("div", {"class":"description"})
 urlnew = eventurl.find("a", href=True)
-fullurl ='https://parliamentlive.tv' + urlnew['href']
+#fullurl ='https://parliamentlive.tv' + urlnew['href']
+fullurl = urlnew['href']
 print(fullurl)
 
 
